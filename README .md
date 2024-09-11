@@ -79,3 +79,9 @@ then replace them in the program
 
 
 
+
+## API Documentation and Design
+
+- **POSTMAN API** :    [**Documentation**](https://documenter.getpostman.com/view/30630244/2sA2rCTMKr#f45cb7f3-d007-4df5-83f4-ea598d3e5015)
+
+ - **FIGMA DESIGN** : [**Figma**](https://www.figma.com/design/uECxqvFhEx9dn4ZuO7wqmu/Reachinbox-Assignment)
