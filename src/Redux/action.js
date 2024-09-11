@@ -9,7 +9,8 @@ import {
   THREADIDREQ,
   THREADIDSUCCESS,
 } from "./actionTypes";
-
+//Reach inbox API integration
+//GET List all mails
 export const Getallmails = (token) => (dispatch) => {
   dispatch({ type: LOGINREQ });
   return axios
@@ -27,6 +28,7 @@ export const Getallmails = (token) => (dispatch) => {
     });
 };
 
+//Onebox FetchThread
 export const fetchThread = (id, token) => (dispatch) => {
   dispatch({ type: THREADIDREQ });
   return axios
@@ -44,6 +46,7 @@ export const fetchThread = (id, token) => (dispatch) => {
     });
 };
 
+//DeleteThread API
 export const DeleteThread = (thread_id, token) => (dispatch) => {
   dispatch({ type: DELETETHREAD_REQ });
 
