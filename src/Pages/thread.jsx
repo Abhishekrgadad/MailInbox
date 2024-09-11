@@ -161,7 +161,7 @@ const ThreadEmail = () => {
 
             <div className=" pr-3 pl-3 bg-[#23272C] rounded-md border-[#4f4f51] border-2">
               <select name="" id="" className="bg-[#23272C]">
-                <option value="">...</option>
+                <option value="">More</option>
               </select>
             </div>
           </div>
