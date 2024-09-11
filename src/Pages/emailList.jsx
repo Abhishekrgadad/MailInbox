@@ -14,7 +14,7 @@ const EmailList = () => {
   const [threadId, setThreadId] = useState(null);
 
   let token =
-    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoiNGFsMjFjczAwNkBnbWFpbC5jb20iLCJpZCI6MTQ0MywiZmlyc3ROYW1lIjoiNEFMMjFDUzAwNiJ9LCJpYXQiOjE3MjU5NDc0OTAsImV4cCI6MTc1NzQ4MzQ5MH0.7MZlXvw9mIq1ak0XOyH5djSN925JP07SeYsANyzXhh4";
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoiNGFsMjFjczAwNkBnbWFpbC5jb20iLCJpZCI6MTQ0MywiZmlyc3ROYW1lIjoiNEFMMjFDUzAwNiIsImxhc3ROYW1lIjpudWxsfSwiaWF0IjoxNzI2MDMwMDk1LCJleHAiOjE3NTc1NjYwOTV9.iYVZAJgrLUw8HK-1njJTgO09Q463p35Tk4cR9Aiz870";
   useEffect(() => {
     dispatch(Getallmails(token));
   }, [token]);
