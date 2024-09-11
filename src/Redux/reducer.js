@@ -15,7 +15,7 @@ const initialState = {
   threadData: [],
   isError: false,
 };
-
+//Login Authorization Actions
 const reducer = (state = initialState, { type, payload }) => {
   switch (type) {
     case LOGINREQ:
